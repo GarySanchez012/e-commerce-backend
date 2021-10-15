@@ -1,0 +1,29 @@
+{
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "**User Story**\r - AS A manager at an internet retail company\r - I WANT a back end for my e-commerce website that uses the latest technologies\r - SO THAT my company can compete with other e-commerce companies",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarySanchez012/e-commerce-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarySanchez012/e-commerce-backend/issues"
+  },
+  "homepage": "https://github.com/GarySanchez012/e-commerce-backend#readme",
+  "keywords": []
+}
